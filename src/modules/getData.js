@@ -1,4 +1,4 @@
-const getData = () => {
+const getData = (str) => {
   return fetch(
     "https://test-cd1db-default-rtdb.firebaseio.com/goods.json"
   ).then((response) => {
